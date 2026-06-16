@@ -23,7 +23,7 @@ npm install -g @anthropic-ai/claude-code
 ### 2. Abrir o projeto
 
 ```bash
-cd ~/Downloads/america250-server
+cd ~/Downloads/America250
 claude
 ```
 
@@ -44,7 +44,7 @@ O Claude Code vai executar `node server.js` e abrir o browser automaticamente.
 ### Iniciar
 
 ```bash
-cd america250-server
+cd America250
 node server.js
 ```
 
@@ -70,12 +70,12 @@ http://localhost:3000
 ## Estrutura
 
 ```
-america250-server/
+America250/
 ├── server.js          ← Servidor Node.js
 ├── package.json       ← Configuração
 ├── README.md          ← Este arquivo
-└── public/
-    └── index.html     ← Painel America250 Pro V6
+├── CLAUDE.md          ← Contexto para o Claude Code
+└── index.html         ← Painel America250 Pro V6
 ```
 
 ---
