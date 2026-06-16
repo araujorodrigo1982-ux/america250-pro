@@ -1,0 +1,16 @@
+{
+  "name": "america250-pro",
+  "version": "1.0.0",
+  "description": "America250 Pro — Monitor de Memecoin Solana com servidor local",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev":   "node --watch server.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Rodrigo Araujo — Ness Imóveis",
+  "license": "MIT"
+}
